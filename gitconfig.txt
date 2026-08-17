@@ -1,0 +1,12 @@
+git config --global user.name reisfelipeh
+git config --global user.email reisfelipe546@gmail.com
+
+-- criar o projeto
+npx create-expo-app@latest AlertaEtec --template blank-typescript@sdk-57
+cd AlertaEtec
+npx expo start
+
+-- alinhar dependências
+npm install
+npm expo install --fix
+npx expo-doctor
